@@ -1,38 +1,56 @@
 .App {
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Calc{
+  margin: auto;
+  margin-top: 1rem;
+  padding: .5rem;
+  width: 500px;
+  background-color: rgb(57, 57, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Disp{
+  border: 1px solid black;
+  background-color: white !important;
+  font-size: 2rem;
+  height: 50px;
+  text-align: right;
+  margin-bottom: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Buttons{
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+  height: 300px;
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.Buttons > button {
+  background-color: lightgray;
+  border: 2px solid black;
+  font-size: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Buttons > button:hover{
+  background-color: rgb(173, 170, 170)
+}
+
+
+.SurnameButton {
+  margin-top: 10px; 
+}
+
+.SurnameButton button {
+  width: 100%; 
+  height: 60px; 
+  font-size: 2.5rem; 
+  background-color: lightgray; 
+  border: 2px solid black; 
+}
+
+.SurnameButton button:hover {
+  background-color: rgb(173, 170, 170); 
 }
