@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.Calc{
+.Calc {
   margin: auto;
   margin-top: 1rem;
   padding: .5rem;
@@ -11,7 +11,7 @@
   background-color: rgb(57, 57, 255);
 }
 
-.Disp{
+.Disp {
   border: 1px solid black;
   background-color: white !important;
   font-size: 2rem;
@@ -20,7 +20,7 @@
   margin-bottom: 2px;
 }
 
-.Buttons{
+.Buttons {
   display: grid;
   gap: 2px;
   grid-template-columns: repeat(4, 1fr);
@@ -34,23 +34,22 @@
   font-size: 1em;
 }
 
-.Buttons > button:hover{
-  background-color: rgb(173, 170, 170)
+.Buttons > button:hover {
+  background-color: rgb(173, 170, 170);
 }
 
-
 .SurnameButton {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .SurnameButton button {
-  width: 100%; 
-  height: 60px; 
-  font-size: 2.5rem; 
-  background-color: lightgray; 
-  border: 2px solid black; 
+  width: 100%;
+  height: 60px;
+  font-size: 2.5rem;
+  background-color: lightgray;
+  border: 2px solid black;
 }
 
 .SurnameButton button:hover {
-  background-color: rgb(173, 170, 170); 
+  background-color: rgb(173, 170, 170);
 }
